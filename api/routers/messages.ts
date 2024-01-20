@@ -1,5 +1,6 @@
 import express from 'express';
-import { IMessage, MessageData } from '../types';
+import { MessageData } from '../types';
+import { fileDB } from '../Data/fileDB';
 
 export const messagesRouter = express.Router();
 
@@ -14,6 +15,8 @@ messagesRouter.post('/',async (req,res,next)=>{
     if (!message.message || !message.author) {
       return res.status(422).send({error: 'Author or message must be present'})
     }
+
+    await fileDB.addItem(message)
 
     return res.send('OK')
   }catch (e){
