@@ -23,3 +23,12 @@ messagesRouter.post('/',async (req,res,next)=>{
     next(e)
   }
 })
+
+messagesRouter.get('/', async(req, res,next)=>{
+  try{
+    const messages = await fileDB.getItems()
+    res.send(messages)
+  }catch (e){
+    next(e)
+  }
+})

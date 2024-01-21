@@ -16,7 +16,7 @@ export const fileDB = {
     }
   },
   async getItems(){
-    return data
+    return data.slice(-30)
   },
   async addItem(item:MessageData){
 
