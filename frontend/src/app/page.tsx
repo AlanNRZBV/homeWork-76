@@ -1,10 +1,24 @@
-import {Grid} from "@mui/material";
-
+'use client';
+import Messages from '@/components/Messages/Messages';
+import { useQuery } from '@tanstack/react-query';
+import React from 'react';
+import { axiosApi } from '@/axiosApi';
 
 export default function Home() {
-  return (
-    <Grid container direction="column">
+  const { data: messages, isLoading } = useQuery({
+    queryKey: ['messages'],
+    queryFn: async () => {
+      const response = await axiosApi.get('/messages');
+      return response.data;
+    },
+  });
 
-    </Grid>
+  return (
+    <>
+      <Messages
+        messages={messages !== undefined ? messages : []}
+        isLoading={isLoading}
+      />
+    </>
   );
 }
