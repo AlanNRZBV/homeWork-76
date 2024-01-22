@@ -9,3 +9,8 @@ export interface IMessages {
   messages: IMessagesItem[]
   isLoading: boolean
 }
+
+export interface IMessageInput{
+  message: string;
+  author: string;
+}
