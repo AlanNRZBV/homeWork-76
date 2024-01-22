@@ -39,7 +39,7 @@ const MessagesForm = () => {
 
 
   return (
-      <form onSubmit={onSubmit}>
+      <form onSubmit={onSubmit} >
         <Grid container direction="column" sx={{p:5}}>
           <Grid item sx={{mb:2}}>
             <TextField required id="author" label="Author" name="author" onChange={inputChangeHandler}/>
