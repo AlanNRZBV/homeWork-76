@@ -6,11 +6,11 @@ export interface IMessagesItem {
 }
 
 export interface IMessages {
-  messages: IMessagesItem[]
-  isLoading: boolean
+  messages: IMessagesItem[];
+  isLoading: boolean;
 }
 
-export interface IMessageInput{
+export interface IMessageInput {
   message: string;
   author: string;
 }

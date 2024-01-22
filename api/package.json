@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "format": "npx prettier . --wtire",
+    "format": "npx prettier . --write",
     "dev": "nodemon index.ts"
   },
   "keywords": [],

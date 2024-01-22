@@ -186,9 +186,9 @@
     "id": "3af869c2-5f94-4db9-904b-acc6f823d6d9"
   },
   {
-    "author": "Test author31",
-    "message": "Test message31",
-    "date": "2024-01-21T09:28:34.526Z",
+    "author": "-0-0-0-0-0-0",
+    "message": "YEAR CHANGE TO 2022",
+    "date": "2022-01-21T09:28:34.526Z",
     "id": "568482d8-bf18-4508-9494-8fb7f2527ade"
   },
   {
@@ -208,5 +208,41 @@
     "message": "another message after refetch",
     "date": "2024-01-22T10:02:01.417Z",
     "id": "5b792299-a451-49e5-8c3a-bb76c9836537"
+  },
+  {
+    "author": "New Author",
+    "message": "Message for refetch test ",
+    "date": "2024-01-22T12:16:53.547Z",
+    "id": "2f7130b1-d5f0-448e-9670-72b572a17c70"
+  },
+  {
+    "author": "test",
+    "message": "test",
+    "date": "2024-01-22T12:19:50.801Z",
+    "id": "44236e2a-9bf2-4b3f-bbf0-f1aa2d6d08ac"
+  },
+  {
+    "author": "еуые",
+    "message": " тес",
+    "date": "2024-01-22T12:22:18.110Z",
+    "id": "e01dd105-9a26-4a17-b3ca-76f0b822659b"
+  },
+  {
+    "author": "1212312",
+    "message": "12312312",
+    "date": "2024-01-22T12:24:34.881Z",
+    "id": "2e9dbee0-1586-4330-a891-89bb2b536bbe"
+  },
+  {
+    "author": "fd21",
+    "message": "asf1",
+    "date": "2024-01-22T12:25:44.640Z",
+    "id": "c50af11e-385c-4f6b-b43c-c129edd22d8c"
+  },
+  {
+    "author": "12312",
+    "message": "dssvsd",
+    "date": "2024-01-22T12:28:01.981Z",
+    "id": "b023aa4a-5e89-4ab0-9cc8-7d0438696418"
   }
 ]

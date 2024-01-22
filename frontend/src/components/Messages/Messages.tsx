@@ -23,7 +23,7 @@ const Messages: FC<IMessages> = ({ messages, isLoading }) => {
   }
 
   return (
-    <Grid container direction="column" sx={{ pt: 5}} spacing={2} >
+    <Grid container direction="column" sx={{ pt: 5 }} spacing={2}>
       {messagesContent}
     </Grid>
   );
